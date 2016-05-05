@@ -15,3 +15,5 @@ if version >= 508 || !exists("did_jsx_syn_inits")
 endif
 
 syn cluster jsExpression add=jsxSpecial
+syn cluster javascriptBlock add=jsxSpecial
+syn cluster javascriptExpression add=jsxSpecial
